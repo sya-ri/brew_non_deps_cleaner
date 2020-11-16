@@ -30,5 +30,5 @@ fun main() {
             }
         }
     }
-    println(deps.entries.filter { it.value.isDep.not() }.map { it.key })
+    println(deps.entries.filter { it.value.isDep.not() }.map { it.key }) // `brew leaves` と同じ結果
 }
